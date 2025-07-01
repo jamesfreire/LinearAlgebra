@@ -1,6 +1,6 @@
 # Linear Algebra Learning Journey 📚
 
-A comprehensive collection of LaTeX study notes covering fundamental concepts in linear algebra, organized by chapter for systematic learning.
+A comprehensive collection of LaTeX study notes covering fundamental concepts in linear algebra, organized by book and chapter for systematic learning.
 
 ## 📖 About This Repository
 

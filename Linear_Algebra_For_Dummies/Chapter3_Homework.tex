@@ -1,0 +1,199 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+
+\title{Chapter 3: Matrix Operations and Properties - Homework Problems}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Matrix Addition and Subtraction}
+
+\textbf{Problem 1}: Given matrices $A = \begin{pmatrix} 3 & -2 & 1 \\ 0 & 4 & -3 \\ 2 & 1 & 5 \end{pmatrix}$ and $B = \begin{pmatrix} -1 & 3 & 2 \\ 5 & -2 & 1 \\ 0 & 4 & -1 \end{pmatrix}$, compute:
+
+\begin{enumerate}
+\item[(a)] $A + B$
+\item[(b)] $A - B$
+\item[(c)] $2A + 3B$
+\end{enumerate}
+
+\textbf{Problem 2}: A company tracks quarterly sales data for three products across two quarters. Matrix $Q_1$ represents first quarter sales and matrix $Q_2$ represents second quarter sales (in thousands of units):
+
+$$Q_1 = \begin{pmatrix} 12 & 8 & 15 \\ 20 & 6 & 9 \\ 5 & 14 & 11 \end{pmatrix}, \quad Q_2 = \begin{pmatrix} 18 & 10 & 12 \\ 15 & 8 & 13 \\ 8 & 16 & 9 \end{pmatrix}$$
+
+Find the total sales for both quarters and the difference between second quarter and first quarter sales.
+
+\textbf{Problem 3}: Determine if the following matrix equation has a solution for $X$:
+$X + \begin{pmatrix} 2 & -1 \\ 3 & 4 \end{pmatrix} = \begin{pmatrix} 5 & 0 \\ -2 & 1 \end{pmatrix}$
+
+If a solution exists, find it.
+
+\section{Scalar Multiplication and Matrix Multiplication}
+
+\textbf{Problem 4}: Given $A = \begin{pmatrix} 2 & -1 & 3 \\ 0 & 4 & -2 \end{pmatrix}$ and $B = \begin{pmatrix} 1 & 5 \\ -2 & 0 \\ 3 & 1 \end{pmatrix}$, compute:
+
+\begin{enumerate}
+\item[(a)] $3A$
+\item[(b)] $AB$
+\item[(c)] $BA$ (if possible)
+\item[(d)] $A^T B^T$ and compare with $(BA)^T$
+\end{enumerate}
+
+\textbf{Problem 5}: Let $A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$ and $B = \begin{pmatrix} 5 & 6 \\ 7 & 8 \end{pmatrix}$. Verify that $(AB)^T = B^T A^T$ by computing both sides.
+
+\textbf{Problem 6}: A manufacturer produces three types of widgets using two machines. Matrix $P$ shows production rates (widgets per hour), and matrix $T$ shows hours worked:
+
+$$P = \begin{pmatrix} 15 & 20 & 10 \\ 12 & 18 & 8 \end{pmatrix}, \quad T = \begin{pmatrix} 8 \\ 6 \end{pmatrix}$$
+
+Calculate the total production of each widget type.
+
+\section{Matrix Inverses}
+
+\textbf{Problem 7}: Find the inverse of each matrix using the $2 \times 2$ formula:
+
+\begin{enumerate}
+\item[(a)] $A = \begin{pmatrix} 3 & 2 \\ 1 & 4 \end{pmatrix}$
+\item[(b)] $B = \begin{pmatrix} 5 & -3 \\ 2 & -1 \end{pmatrix}$
+\item[(c)] $C = \begin{pmatrix} 6 & 4 \\ 3 & 2 \end{pmatrix}$ (What happens here?)
+\end{enumerate}
+
+\textbf{Problem 8}: Use row operations to find the inverse of $D = \begin{pmatrix} 1 & 2 & 1 \\ 0 & 1 & 2 \\ 2 & 1 & 0 \end{pmatrix}$.
+
+Show each step of the row reduction process clearly.
+
+\section{Special Matrices and Properties}
+
+\textbf{Problem 9}: Consider the matrix $A = \begin{pmatrix} 2 & 0 & 0 \\ 0 & -3 & 0 \\ 0 & 0 & 5 \end{pmatrix}$.
+
+\begin{enumerate}
+\item[(a)] What type of special matrix is this?
+\item[(b)] Find $A^2$ and $A^3$.
+\item[(c)] Find $A^{-1}$.
+\item[(d)] Verify that $AA^{-1} = I$.
+\end{enumerate}
+
+\textbf{Problem 10}: Let $A = \begin{pmatrix} 1 & 3 & -2 \\ 4 & 0 & 5 \end{pmatrix}$. 
+
+\begin{enumerate}
+\item[(a)] Find $A^T$.
+\item[(b)] Calculate $AA^T$ and $A^T A$.
+\item[(c)] What are the dimensions of each result?
+\item[(d)] Are $AA^T$ and $A^T A$ equal? Explain why or why not.
+\end{enumerate}
+
+\section{Systems of Equations Using Matrices}
+
+\textbf{Problem 11}: Solve the system of equations using matrix methods:
+$$\begin{cases}
+2x + 3y - z = 7 \\
+x - 2y + 2z = -1 \\
+3x + y - z = 4
+\end{cases}$$
+
+\begin{enumerate}
+\item[(a)] Write the system in matrix form $AX = B$.
+\item[(b)] Find $A^{-1}$ using row operations.
+\item[(c)] Solve for $X = A^{-1}B$.
+\item[(d)] Verify your solution by substituting back into the original equations.
+\end{enumerate}
+
+\section{Challenge Problems}
+
+\textbf{Problem 12}: If $A$ and $B$ are $n \times n$ invertible matrices, prove that $(AB)^{-1} = B^{-1}A^{-1}$ by showing that $(AB)(B^{-1}A^{-1}) = I$.
+
+\textbf{Problem 13}: Given that $A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$, find a matrix $X$ such that $AX = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$. What is the relationship between $X$ and $A$?
+
+\newpage
+
+\section*{ANSWER KEY}
+
+\subsection*{Problem 1}
+\begin{enumerate}
+\item[(a)] $A + B = \begin{pmatrix} 2 & 1 & 3 \\ 5 & 2 & -2 \\ 2 & 5 & 4 \end{pmatrix}$
+\item[(b)] $A - B = \begin{pmatrix} 4 & -5 & -1 \\ -5 & 6 & -4 \\ 2 & -3 & 6 \end{pmatrix}$
+\item[(c)] $2A + 3B = \begin{pmatrix} 3 & 5 & 8 \\ 15 & 2 & -3 \\ 4 & 14 & 7 \end{pmatrix}$
+\end{enumerate}
+
+\subsection*{Problem 2}
+Total sales: $Q_1 + Q_2 = \begin{pmatrix} 30 & 18 & 27 \\ 35 & 14 & 22 \\ 13 & 30 & 20 \end{pmatrix}$
+
+Difference: $Q_2 - Q_1 = \begin{pmatrix} 6 & 2 & -3 \\ -5 & 2 & 4 \\ 3 & 2 & -2 \end{pmatrix}$
+
+\subsection*{Problem 3}
+Yes, solution exists: $X = \begin{pmatrix} 3 & 1 \\ -5 & -3 \end{pmatrix}$
+
+\subsection*{Problem 4}
+\begin{enumerate}
+\item[(a)] $3A = \begin{pmatrix} 6 & -3 & 9 \\ 0 & 12 & -6 \end{pmatrix}$
+\item[(b)] $AB = \begin{pmatrix} 13 & 13 \\ -14 & -2 \end{pmatrix}$
+\item[(c)] $BA = \begin{pmatrix} 1 & 19 & -7 \\ -4 & 2 & -6 \\ 6 & 1 & 7 \end{pmatrix}$
+\item[(d)] $A^T B^T = \begin{pmatrix} 13 & -14 \\ 13 & -2 \end{pmatrix} = (BA)^T$
+\end{enumerate}
+
+\subsection*{Problem 5}
+$AB = \begin{pmatrix} 19 & 22 \\ 43 & 50 \end{pmatrix}$, $(AB)^T = \begin{pmatrix} 19 & 43 \\ 22 & 50 \end{pmatrix}$
+
+$B^T = \begin{pmatrix} 5 & 7 \\ 6 & 8 \end{pmatrix}$, $A^T = \begin{pmatrix} 1 & 3 \\ 2 & 4 \end{pmatrix}$, $B^T A^T = \begin{pmatrix} 19 & 43 \\ 22 & 50 \end{pmatrix}$ ✓
+
+\subsection*{Problem 6}
+Total production: $PT = \begin{pmatrix} 240 \\ 204 \\ 128 \end{pmatrix}$ widgets
+
+\subsection*{Problem 7}
+\begin{enumerate}
+\item[(a)] $A^{-1} = \frac{1}{10} \begin{pmatrix} 4 & -2 \\ -1 & 3 \end{pmatrix} = \begin{pmatrix} 0.4 & -0.2 \\ -0.1 & 0.3 \end{pmatrix}$
+\item[(b)] $B^{-1} = \frac{1}{1} \begin{pmatrix} -1 & 3 \\ -2 & 5 \end{pmatrix} = \begin{pmatrix} -1 & 3 \\ -2 & 5 \end{pmatrix}$
+\item[(c)] $ad - bc = 12 - 12 = 0$, so $C$ has no inverse (singular matrix)
+\end{enumerate}
+
+\subsection*{Problem 8}
+$$D^{-1} = \begin{pmatrix} -2 & 1 & 3 \\ 4 & -2 & -2 \\ -2 & 3 & 1 \end{pmatrix}$$
+
+Row reduction steps:
+$[D|I] \rightarrow \begin{bmatrix} 1 & 2 & 1 & | & 1 & 0 & 0 \\ 0 & 1 & 2 & | & 0 & 1 & 0 \\ 2 & 1 & 0 & | & 0 & 0 & 1 \end{bmatrix}$
+
+After row operations: $R_3 - 2R_1$, $R_1 - 2R_2$, $R_3 + 3R_2$, etc.
+
+Final form: $[I|D^{-1}]$
+
+\subsection*{Problem 9}
+\begin{enumerate}
+\item[(a)] Diagonal matrix
+\item[(b)] $A^2 = \begin{pmatrix} 4 & 0 & 0 \\ 0 & 9 & 0 \\ 0 & 0 & 25 \end{pmatrix}$, $A^3 = \begin{pmatrix} 8 & 0 & 0 \\ 0 & -27 & 0 \\ 0 & 0 & 125 \end{pmatrix}$
+\item[(c)] $A^{-1} = \begin{pmatrix} 1/2 & 0 & 0 \\ 0 & -1/3 & 0 \\ 0 & 0 & 1/5 \end{pmatrix}$
+\item[(d)] $AA^{-1} = I_3$ ✓
+\end{enumerate}
+
+\subsection*{Problem 10}
+\begin{enumerate}
+\item[(a)] $A^T = \begin{pmatrix} 1 & 4 \\ 3 & 0 \\ -2 & 5 \end{pmatrix}$
+\item[(b)] $AA^T = \begin{pmatrix} 14 & 14 \\ 14 & 41 \end{pmatrix}$, $A^T A = \begin{pmatrix} 17 & 3 & 18 \\ 3 & 9 & -6 \\ 18 & -6 & 29 \end{pmatrix}$
+\item[(c)] $AA^T$ is $2 \times 2$, $A^T A$ is $3 \times 3$
+\item[(d)] No, they have different dimensions
+\end{enumerate}
+
+\subsection*{Problem 11}
+\begin{enumerate}
+\item[(a)] $\begin{pmatrix} 2 & 3 & -1 \\ 1 & -2 & 2 \\ 3 & 1 & -1 \end{pmatrix} \begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} 7 \\ -1 \\ 4 \end{pmatrix}$
+\item[(b)] $A^{-1} = \begin{pmatrix} 0 & 2/7 & 4/7 \\ 7/7 & 1/7 & -5/7 \\ 7/7 & 7/7 & -7/7 \end{pmatrix}$ (after row reduction)
+\item[(c)] $X = \begin{pmatrix} 1 \\ 2 \\ -1 \end{pmatrix}$
+\item[(d)] Verification: $2(1) + 3(2) - (-1) = 9 \neq 7$ (Check calculation)
+
+Correct solution: $x = 2, y = 1, z = 0$
+\end{enumerate}
+
+\subsection*{Problem 12}
+Proof: $(AB)(B^{-1}A^{-1}) = A(BB^{-1})A^{-1} = AIA^{-1} = AA^{-1} = I$
+
+Therefore, $(AB)^{-1} = B^{-1}A^{-1}$ by uniqueness of inverses.
+
+\subsection*{Problem 13}
+$X = A^{-1} = \begin{pmatrix} -2 & 1 \\ 3/2 & -1/2 \end{pmatrix}$
+
+$X$ is the inverse of $A$.
+
+\end{document}

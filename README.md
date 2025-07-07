@@ -15,10 +15,8 @@ This repository contains detailed study notes, explanations, and examples for li
 ## 🎯 My Learning Objectives
 
 - Master fundamental linear algebra concepts
-- Develop mathematical intuition through visual and practical examples
 - Build a comprehensive reference for future use
-- Connect abstract mathematics to real-world applications
-
+- Understand how vector functions and linear algebra underpin and serve as the foundation for AI, machine learning and LLMs in particular
 ## 🚀 How to Use These Notes
 
 1. **LaTeX Files**: Compile `.tex` files using any LaTeX distribution (TeXLive, MiKTeX, etc.)

@@ -35,14 +35,6 @@ This repository contains detailed study notes, explanations, and examples for li
 - **Required Packages**: `amsmath`, `amssymb`, `mathtools`, `xcolor`, `tikz`
 - **Recommended Editor**: TeXstudio, VS Code with LaTeX Workshop, or Overleaf
 
-## 🎨 Features
-
-- **Color-coded concepts** for visual learning
-- **Boxed formulas** for easy identification
-- **Real-world examples** in green italics
-- **Mathematical proofs** where applicable
-- **Cross-references** between related concepts
-
 ## 📝 Contributing
 
 This is a personal learning repository, but suggestions and corrections are welcome! Feel free to:
